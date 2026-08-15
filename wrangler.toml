@@ -5,7 +5,7 @@ account_id = "47120fe4af4d0bd09be128a755ce84fc"
 workers_dev = true
 keep_vars = true
 
-# ADMIN is intentionally not stored here. Keep it as a Cloudflare Secret.
+# ADMIN must be configured as a Cloudflare Secret.
 [[kv_namespaces]]
 binding = "KV"
 id = "aa43e96253264020afbeee328b28a5b8"

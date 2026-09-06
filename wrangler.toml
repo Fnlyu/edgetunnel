@@ -9,3 +9,7 @@ keep_vars = true
 [[kv_namespaces]]
 binding = "KV"
 id = "aa43e96253264020afbeee328b28a5b8"
+
+[[routes]]
+pattern = "123.fnlyu.cc.cd"
+custom_domain = true
